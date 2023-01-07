@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    text-align: right;
+}
+.banner{
+    width: 100%;
+    height: 65vh;
+    background-image: url(../banner2.png);
+    background-size: cover;
+    background-position: 100%;
+    border-radius: 10px;
+    
+    margin-top: 100px;
+}
+.banner-text{
+    padding-top: 100px;
+    margin-left: 50px;
+
+}
+.banner-description{
+
+}
+.btn{
+    color: white;
+    background-color: orangered ;
+    height: 40px;
+    
+    padding: 10;
+    border: 0;
+}
+.secondary-image{
+    display: flex;
+}
+.about-me-title{
+    margin: auto;
+    padding: 10px;
+}
+.about-me-description{
+    margin: auto;
+    border: 10;
+    border-radius: 20;
+}
+.about-title{
+    text-align: center;
+   
+}
+.skills-container{
+    display: flex;
+}
+.third-img{
+    background-color: rgba(245, 245, 220, 0.474);
+    
+    text-align: right;
+    background-image: url(../images/gradient2.png);
+}
+.third-btn{
+    text-align: right;
+    color: white;
+    background-color: orangered;
+}
